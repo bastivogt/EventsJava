@@ -1,5 +1,7 @@
 package com.herr.vogt;
 
+
+
 public class Main {
 
 
@@ -23,7 +25,7 @@ public class Main {
 
         counter.setOnCounterChangeListener(counterChange);
 
-        counter.setOnCounterFisnishListener((Event e) -> {
+        counter.setOnCounterFinishListener((Event e) -> {
             Counter c = (Counter) e.getSource();
             System.out.println("counterFinish " + c.getCount());
         });
@@ -31,6 +33,8 @@ public class Main {
 
 
         counter.run();
+
+
 
     }
 }

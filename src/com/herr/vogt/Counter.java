@@ -47,7 +47,7 @@ public class Counter {
     }
 
 
-    public void setOnCounterFisnishListener(CounterFinishListener listener) {
+    public void setOnCounterFinishListener(CounterFinishListener listener) {
         counterFinishListener = listener;
     }
 
